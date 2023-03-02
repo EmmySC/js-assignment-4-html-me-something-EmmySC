@@ -1,43 +1,61 @@
 /* Write your CSS here! */
 html, body {
-    background-color: grey;
-    font-size: 10px;       /* base font size is now 10 pixels high */
+    background-color: rgb(232, 185, 185);
+    font-size: 15px;       /* base font size is now 15 pixels high */
     font-family: "Open Sans", sans-serif; 
+    text-align: center;
 }
 
 header, #main-heading {
     color: red;
+    text-shadow: 3px 3px 1px black;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif; 
+    text-align: center;
 }
 
-body {
-    width: 600px;
+/* body {
+    /* width: 600px;
     margin: 8px auto;
     display: block;
-    background-color: rgba(255, 247, 0, 0.86);
+    background-color: rgba(204, 234, 254, 0.86);
     padding: 0 20px 20px 20px;
     border: 5px solid black;
-}
+} */
 
-h1 {
+/* h1 {
     margin: 0 auto;
     padding: 20px 0;
     color: #5a009fe1;
     text-shadow: 3px 3px 1px black;
-}
+} */
 
-h1 {
-    font-size: 60px;
-    text-align: center;
+h3 {
+    color: rgb(52, 143, 52);
+    font-family: "Open Sans", sans-serif; 
 }
 
 p, #test-p {
+    color: rgb(55, 0, 0);
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif; 
 }
 
-p.fun-paragraph {
-    color: green;
+h2.fun-paragraph {
+    color: rgb(1, 99, 1);
+    text-align: center;
+    font-family: "Open Sans", sans-serif; 
+}
+
+#p1, #p2, #p3, #p4 {
+    color:rgb(34, 94, 34);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif; 
 }
 
 img {              /*images are inline elements*/
@@ -46,6 +64,14 @@ img {              /*images are inline elements*/
 }
 
 div {
-    display: flex;
+    display: block; 
 }
 
+.footer {   /* not working */
+    display: block; 
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: auto;
+    color: black;
+}
