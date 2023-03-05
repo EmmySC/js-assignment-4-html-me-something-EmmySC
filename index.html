@@ -5,13 +5,13 @@
    </head>
    <body>
       <!-- Write your HTML in this file! -->
-      <header id="main-heading"><h1>Cherished Children's Learning Resources</h1></header>
-      <a><img src=”https://image-source.here.com” /></a>
-      <a><img class="nephews" src="https://www.dropbox.com/s/nomszq58fj8p088/Asher%2BEverett.jpeg?dl=0"></a><br /><cite>(E. Chassin, 2022)</cite>
+      <header id="mainHeading"><h1>Cherished Children's Learning Resources</h1></header>
+      <a><img src="images/Asher_Everett.jpeg" /></a>
+      <br /><cite>(E. Chassin, 2022)</cite>
 
       <main class="assignment">
          <div id="story" class="story"> 
-            <p id="test-p"><h2 class="fun-paragraph">Spending time with my young nephews has brought back memories of my own childhood. This webpage highlights some great (older) content that remains relevent today. I look forward to sharing these four special programs with them soon.</h2></p>
+            <p id="test-p" class="funParagraph">Spending time with my young nephews has brought back memories of my own childhood. This webpage highlights some great (older) content that remains relevent today. I look forward to sharing these four special programs with them soon.</p>
          
          <section id="reading-rainbow">
             <h3>Reading Rainbow</h3>
@@ -19,59 +19,7 @@
             <article class="reading-rainbow">
                <div>
                   <p>"take a look, it's in a book, a Reading Rainbow"</p>
-                  <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-                     <iframe id="player" type="text/html" width="640" height="390"
-                        src="https://www.youtube.com/embed/OAIW5se_cxg"
-                        frameborder="0"></iframe>
-               <div id="player"></div>
-
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      let tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      let firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      let player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'M7lc1UVf-VE',
-          playerVars: {
-            'playsinline': 1
-          },
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
-
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      let done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
-        }
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-    </script>
-
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/OAIW5se_cxg" title="YouTube video player" frameborder="0"></iframe><br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/wt7pIN3mFe8" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe><br>
                   <cite>(Reading rainbow (extended TV series theme song, sung by Tina Fabrique) 2022)</cite>
                </div>
             </article>
@@ -83,9 +31,7 @@
             <article class="zoobilee-zoo">
                <div>
                   <p>"magic and wonder are waiting for you"</p>
-                  <iframe width="420" height="315"
-                  src="https://www.youtube.com/watch?v=oowOsEOTApA">
-                  </iframe><br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/oowOsEOTApA" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe><br>
                   <cite>(Zoobilee Zoo theme song (HQ) 2012)</cite>
                </div>
             </article>
@@ -97,9 +43,7 @@
             <article class="fraggle-rock">
                <div>
                   <p>"let the music play, down in Fraggle Rock"</p>
-                  <iframe width="420" height="315"
-                  src=" https://www.youtube.com/watch?v=KLQS6xo40kI">
-                  </iframe><br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/KLQS6xo40kI" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe><br>
                   <cite>(Opening theme - fraggle rock - the jim henson company 2013)</cite>
                </div>
             </article>
@@ -111,9 +55,7 @@
             <article class="free-to-be">
                <div>
                   <p>"take my hand, come with me, where the children are free"</p>
-                  <iframe width="420" height="315"
-                  src="https://www.youtube.com/watch?v=7PS3nOcLbHI">
-                  </iframe><br>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/_26FOHoaC78" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe><br>
                   <cite>(KABC-TV7 (1974) "free to be you &amp; me!" original broadcast!!!! 2021)</cite>
                </div>
             </article>
@@ -169,8 +111,8 @@
       </article> -->
 
    </body>
-   <footer class="footer">
+   <footer>
       <!-- entity for the copyright symbol (©) is &copy; -->
-      <p>LC101 Graded Assignment #4: HTML_Me_Something<br/>© 2023 E. Chassin</p>
+      <p>LC101 Graded Assignment #4: HTML_Me_Something<br/>&copy; 2023 E. Chassin</p>
    </footer>
 </html>
