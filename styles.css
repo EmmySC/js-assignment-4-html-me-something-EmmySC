@@ -30,6 +30,17 @@ img {
     border: 5px solid black;
 } */
 
+/* }
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 400px;
+background : #D8F1F8;
+border: 1px soild silver;
+color: #000
+} */
+
+
 /* h1 {
     margin: 0 auto;
     padding: 20px 0;
@@ -51,7 +62,7 @@ h3 {
 } */
 
 .funParagraph {
-    color: rgb(1, 99, 1);
+    color: green; 
     font-size: 20px;
     font-weight: bold;
     line-height: 2;
