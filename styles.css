@@ -1,6 +1,6 @@
 /* Write your CSS here! */
 body {
-    background-color: rgb(232, 185, 185);
+    background-color: rgb(249, 240, 255);
     font-size: 15px;       /* base font size is now 15 pixels high */
     font-family: "Open Sans", sans-serif; 
     text-align: center;
@@ -21,6 +21,106 @@ img {
     width: 35%;
 }
 
+span.story-title {
+    font-size: 20px;
+    color: rgb(1, 64, 1);
+}
+
+h3 {
+    color: rgb(149, 27, 27);
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; 
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.funParagraph {
+    text-shadow: 3px 3px 1px rgb(251, 248, 248);
+    color: green; 
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+    text-align: justify; /*center */
+}
+
+p {
+    color:rgb(34, 94, 34);
+    text-align: justify; /* center */
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif; 
+    /* border:2px solid black; */
+    padding: 5px;
+}
+
+img {              /*images are inline elements*/
+    display: block;   /*apply block behavior*/
+    margin: 0 auto;
+}
+
+div {
+    display: block; 
+}
+
+#reading-rainbow {
+    border: 2px solid black;
+    border-style: solid;
+    margin: 10px;
+}
+
+#zoobilee-zoo {
+    border: 2px solid black;
+    border-style: solid;
+    margin: 10px;
+}
+
+#fraggle-rock {
+    border: 2px solid black;
+    border-style: solid;
+    margin: 10px;
+}
+
+#free-to-be {
+    border: 2px solid black;
+    border-style: solid;
+    margin: 10px;
+}
+
+/* footer {
+    display: inline-block;
+    text-align: center;
+    color: black;
+    position: fixed;
+    padding: 10px 20px;
+}  */
+
+/* footer {   
+    display: block; 
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: auto;
+    color: black;
+} */
+
+/* #test-p {
+    color: rgb(1, 99, 1);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif; 
+} */
+
+/* h1 {
+    margin: 0 auto;
+    padding: 20px 0;
+    color: #5a009fe1;
+    text-shadow: 3px 3px 1px black;
+} */
+
 /* body {
     /* width: 600px;
     margin: 8px auto;
@@ -35,72 +135,7 @@ margin: auto;
 padding-top: 10px;
 padding-bottom: 10px;
 width: 400px;
-background : #D8F1F8;
-border: 1px soild silver;
-color: #000
+height:
+border: 1px soild;
+color: 
 } */
-
-
-/* h1 {
-    margin: 0 auto;
-    padding: 20px 0;
-    color: #5a009fe1;
-    text-shadow: 3px 3px 1px black;
-} */
-
-h3 {
-    color: rgb(52, 143, 52);
-    font-family: "Open Sans", sans-serif; 
-}
-
-/* #test-p {
-    color: rgb(1, 99, 1);
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-family: "Open Sans", sans-serif; 
-} */
-
-.funParagraph {
-    color: green; 
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-}
-
-p {
-    color:rgb(34, 94, 34);
-    text-align: center;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-family: "Open Sans", sans-serif; 
-    border:2px solid black;
-    padding: 5px;
-}
-
-img {              /*images are inline elements*/
-    display: block;   /*apply block behavior*/
-    margin: 0 auto;
-}
-
-div {
-    display: block; 
-}
-
-/* footer {   
-    display: block; 
-    font-size: 10px;
-    line-height: 1;
-    letter-spacing: 1px;
-    text-align: auto;
-    color: black;
-} */
-
-#zoobilee-zoo {
-    border:2px solid black;
-    border-style: solid;
-}
